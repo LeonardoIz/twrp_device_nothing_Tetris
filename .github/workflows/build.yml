@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, twrp-comp]
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout the code
@@ -19,8 +19,8 @@ jobs:
 
     - name: Set Git user info
       run: |
-        git config --global user.name "Null Byte"
-        git config --global user.email "andrexyt@proton.me"
+        git config --global user.name "Leonardo Izzo"
+        git config --global user.email "leonardoizzo33@gmail.com"
 
     - name: Install dependencies
       run: |
